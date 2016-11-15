@@ -1,0 +1,31 @@
+input {
+	width: 300px !important;
+}
+
+#output {
+	height: 50px;
+}
+
+tr td:first-child {
+	width: 25%;
+}
+
+#button {
+	margin: 2%;
+}
+body {
+	background-color: #fff;
+}
+table, td {
+	border:2px double black !important;
+}
+img {
+	position: absolute;
+    top: 0px;
+    right: 100px; 
+    z-index: 100;
+}
+.container {
+	position:relative;
+	z-index: 200;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+	<img src="change-20272_640.jpg" id="moneyChange" style="width:304px;height:228px;">
+</head>
+
+<body>
+	<div class="container">
+		<div id="entries">
+        <h3 id="salesPrice">Enter total sales amount:</h3>
+        <input type="text" id="totalSalesAmount" class="form-control">
+        <h3 id="tender">Enter amount tendered by customer:</h3>
+
+
+        <div>
+            <input type="text" id="tenderedAmount" class="form-control">
+            <button type="button" class="btn btn-success" id="button">Calculate Change</button>
+        </div>
+    </div>
+    <output id="output"></output>
+    <table id="tableBills" class="table table-bordered">
+        <tr>
+            <td id="fifties">Fifties</td>
+            <td id="fiftiesValue"></td>
+        </tr>
+        <tr>
+            <td id="twenties">Twenties</td>
+            <td id="twentiesValue"></td>
+        </tr>
+        <tr>
+            <td id="tens">Tens</td>
+            <td id="tensValue"></td>
+        </tr>
+        <tr>
+            <td id="fives">Fives</td>
+            <td id="fivesValue"></td>
+        </tr>
+        <tr>
+            <td id="ones">Ones</td>
+            <td id="onesValue"></td>
+        </tr>
+    </table>
+    <table id="tableChange" class="table table-bordered">
+        <tr>
+            <td id="quarters">Quarters</td>
+            <td id="quartersValue"></td>
+        </tr>
+        <tr>
+            <td id="dimes">Dimes</td>
+            <td id="dimesValue"></td>
+        </tr>
+        <tr>
+            <td id="nickels">Nickels</td>
+            <td id="nickelsValue"></td>
+        </tr>
+        <tr>
+            <td id="pennies">Pennies</td>
+            <td id="penniesValue"></td>
+        </tr>
+    </table>
+	</div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
